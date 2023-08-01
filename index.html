@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generatore Password</title>
+    <link rel="stylesheet" href="Generatore.css">
+</head>
+<body>
+    <h1>Generatore password complesse</h1>
+    <div>
+        <label for="lunghezza">Lunghezza</label>
+        <input type="number" id="lunghezza" min="5" max="20" value="10">
+    </div>
+    <div>
+        <label for="caratteri-minuscoli">Caratteri Minuscoli</label>
+        <input type="checkbox" id="caratteri-minuscoli" checked>
+    </div>
+    <div>
+        <label for="caratteri-maiuscoli">Caratteri Maiuscoli</label>
+        <input type="checkbox" id="caratteri-maiuscoli" checked>
+    </div>
+    <div>
+        <label for="caratteri-numerici">Caratteri Numerici</label>
+        <input type="checkbox" id="caratteri-numerici" checked>
+    </div>
+    <div>
+        <label for="caratteri-speciali">Caratteri Speciali</label>
+        <input type="checkbox" id="caratteri-speciali" checked>
+    </div>
+    <button id="genera-password">Genera password</button>
+    <div id="risultato"></div>
+
+
+    <script src="Generatore.js"></script>
+    
+</body>
+</html>
